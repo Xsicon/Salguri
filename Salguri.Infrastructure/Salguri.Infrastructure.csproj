@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Intercom.Dotnet.Client" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Salguri.Application\Salguri.Application.csproj" />
+    <ProjectReference Include="..\Salguri.Domain\Salguri.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
