@@ -5,11 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Salguri.Application.DTOS;
-
-public class UserRequestDTO
+public class ResendOtpRequestDTO
 {
-    public string? FullName { get; set; }
     public string? Email { get; set; }
-    public string? Password { get; set; }
 }
-

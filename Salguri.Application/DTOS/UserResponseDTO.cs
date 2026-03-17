@@ -10,8 +10,8 @@ public class UserResponseDTO
 {
     public bool Success { get; set; }
     public string? Message { get; set; }
-    public long? RoleId { get; set; }
-    public bool IsActive { get; set; }
     public string? AccessToken { get; set; }
+    public string? RefreshToken { get; set; }
+    public string? Email { get; set; }
 
 }
